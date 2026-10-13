@@ -4,6 +4,8 @@ public class Person {
     protected String myGender;
 
 
+    public Person() {
+    }
     public Person(String myName, int myAge, String myGender) {
         this.myName = myName;
         this.myAge = myAge;

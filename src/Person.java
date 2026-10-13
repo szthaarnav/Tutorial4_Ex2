@@ -6,6 +6,10 @@ public class Person {
 
     public Person() {
     }
+    public Person(String myName, int myAge) {
+        this.myName = myName;
+        this.myAge = myAge;
+    }
     public Person(String myName, int myAge, String myGender) {
         this.myName = myName;
         this.myAge = myAge;
